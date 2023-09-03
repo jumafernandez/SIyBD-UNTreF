@@ -104,7 +104,7 @@ e) Utilizar búsquedas por cadenas
 
 ```javascript
 
-    db.getCollection('tweets').find({screen_name: {$regex: "^P.*"} })
+db.getCollection('tweets').find({screen_name: {$regex: "^P.*"} })
 ```
 
 ## Importación de Datos con MongoImport

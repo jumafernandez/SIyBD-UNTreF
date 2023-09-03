@@ -1,4 +1,4 @@
-# Guía LABORATORIO III: Introducción a Bases de Datos NOSQL
+# Guía LABORATORIO: Introducción a Bases de Datos NOSQL
 
 ## Creación de "esquemas" con MongoDB con Robo3T
 

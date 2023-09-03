@@ -13,7 +13,7 @@ Los pasos para instalar el servidor de MongoDB se describen a continuación:
 
 A continuación podemos observar gráficamente estas últimas instrucciones:
 
-<img src="./img/instalar_mongo.png" alt="drawing" width="700px" align="middle"/>
+<img src="./imgs/instalar_mongo.png" alt="drawing" width="700px" align="middle"/>
 
 Ahora ya tenemos instalado el servidor mongoDB, cada vez que vayamos a trabajar con el debemos iniciarlo ejecutando el archivo __mongod__ que se encuentra en el directorio de instalación, generalmente en __C:\Program Files\MongoDB\Server\<VERSION_INSTALADA>\bin__. 
 En caso que no sepas como hacerlo, seguí las siguientes instrucciones:
@@ -24,7 +24,7 @@ En caso que no sepas como hacerlo, seguí las siguientes instrucciones:
 
 A continuación podemos observar gráficamente estas últimas instrucciones:
 
-<img src="./img/ejecutar_mongo.png" alt="drawing" width="700px" align="middle"/>
+<img src="./imgs/ejecutar_mongo.png" alt="drawing" width="700px" align="middle"/>
 
 
 ### Robo3T
@@ -36,7 +36,7 @@ Los pasos para instalar el servidor de MongoDB se describen a continuación:
 1. Descargamos ROBO 3T del [Sitio web de la herramienta](https://robomongo.org/download), de acuerdo a la versión de nuestro Sistema Operativo.
 2. Ejecutamos el instalador, que es un instalador típico de Windows (siguiente, siguiente...) y listo.
 
-<img src="./img/descargar_robo3t.png" alt="drawing" width="700px" align="middle"/>
+<img src="./imgs/descargar_robo3t.png" alt="drawing" width="700px" align="middle"/>
 
 
 ## Ubuntu
@@ -100,7 +100,7 @@ Una vez que tenemos el Servidor de MongoDB y Robo 3T instalados y operativos, po
 
 A continuación podemos observar gráficamente como conectarnos a MongoDB con Robo 3T:
 
-<img src="./img/conectar_robo3t.png" alt="drawing" width="700px" align="middle"/>
+<img src="./imgs/conectar_robo3t.png" alt="drawing" width="700px" align="middle"/>
 
 Para empezar a trabajar, creamos otra Guía de Laboratorio, la número III, que muestra una introducción a como gestionar nuestras bases de datos con estas herramientas. Podemos acceder presionando [aquí](https://github.com/dmuba/dmuba.github.io/blob/master/Practicos/guias/guia-labo03.md).
 

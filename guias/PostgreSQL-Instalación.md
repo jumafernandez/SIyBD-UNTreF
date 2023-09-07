@@ -2,6 +2,10 @@
 
 PostgreSQL es un sistema de gestión de bases de datos relacional (RDBMS, por sus siglas en inglés) de código abierto y de alto rendimiento. Fue desarrollado originalmente en la Universidad de California en Berkeley a principios de la década de 1990 y ha ido ganando popularidad desde entonces.
 
+<p align="center">
+<img src="./imgs/postgresql-logo.png" width="150px" />
+</p>
+
 A continuación se enumeran algunas de las principales características de PostgreSQL:
 1. __Open Source:__ Es software libre, lo cual significa que su código fuente está disponible para que cualquiera lo examine, modifique y distribuya de acuerdo con los términos de su licencia (Licencia PostgreSQL, que es similar a la Licencia MIT).
 2. __Bases de datos relacionales:__ Está dentro de las DB que siguen el modelo de bases de datos relacionales, lo que significa que organiza los datos en tablas con relaciones definidas entre ellas.

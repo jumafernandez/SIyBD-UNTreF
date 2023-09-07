@@ -36,11 +36,11 @@ psql -U postgres
 
 ### Sistemas operativos Linux (Ubuntu):
 1. Desde hace un tiempo, Ubuntu incluye una versión de PostgreSQL en su instalación por defecto. No obstante se brindan las instrucciones para su instalación.
-2. Ejecuta el siguiente comando para instalar PostgreSQL y el paquete adicional `postgresql-contrib`, que incluye extensiones útiles:
+2. En primer lugar, es necesario abrir una terminal y ejecutar el siguiente comando para instalar PostgreSQL y el paquete adicional `postgresql-contrib`, que incluye extensiones útiles:
 ```
 sudo apt install postgresql postgresql-contrib
 ```
-3. Durante la instalación, el instalador solicitaráuna contraseña para el usuario "postgres". Esta contraseña se utilizará para acceder a la base de datos. Ingresa una contraseña segura y recuérdala.
+3. Durante la instalación, el instalador solicitará una contraseña para el usuario "postgres". Esta contraseña se utilizará para acceder a la base de datos. Ingresa una contraseña segura y recuérdala.
 4. Ahora es posible acceder a la línea de comandos de PostgreSQL (psql) con el usuario "postgres" que se creó durante la instalación. Utiliza el siguiente comando para acceder:
 ```
 sudo -i -u postgres
@@ -56,5 +56,11 @@ sudo apt install pgadmin4
 ```
 8. Ahora si, hemos terminado.
 
-## Instalación paso a paso de PostGIS:
+## Instalación paso a paso de PostGIS
 
+### Sistemas operativos Linux (Ubuntu):
+1. Para instalar el módulo PostGIS, es necesario nuevamente es necesario abrir una terminal y ejecutar el siguiente comando:
+```
+sudo apt install postgis
+```
+2. Durante la instalación, se pedirá confirmar la instalación de PostGIS y sus dependencias. Es necesario aceptar para continuar.

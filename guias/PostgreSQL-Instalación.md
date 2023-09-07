@@ -11,11 +11,6 @@ A continuación se enumeran algunas de las principales características de Postg
 6. __Compatibilidad con múltiples plataformas:__ Es compatible con todas las familias de sistemas operativos tales cómo Linux, Windows, macOS y más. Además, cuenta con numerosas bibliotecas y controladores que facilitan la integración con una variedad de lenguajes de programación y aplicaciones.
 
 ## Instalación paso a paso de PostgreSQL (Windows):
-1. La instalación de PostgreSQL en SO Windows es una instalación muy sencilla. En primer lugar, se debe descargar PostgreSQL desde el siguiente [enlace]([https://github.com/bdm-unlu/2021/blob/master/guias/Java_configuracion.md](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads).
-2. Una vez descargado, se debe hacer doble click sobre el archivo ejecutable, definir un puerto de escucha del servidor (se sugiere dejar el puerto por defecto: 5432) y una clave para el usuario postgres (usuario con mayores privilegios). Es importante no olvidar esa clave.
-3. Presionar siguiente y esperar a que finalice la instalación.
-
-## Instalación paso a paso de PostgreSQL (Linux):
 1. La instalación de PostgreSQL en SO Windows es una instalación muy sencilla. En primer lugar, se debe acceder al Sitio Web Oficial de PostgreSQL en https://www.postgresql.org/download/windows/.
 2. En la página de descargas, se debe seleccionar la versión de PostgreSQL que se desea instalar. Generalmente, se recomienda la última versión estable. Una vez elegida, hacer clic en el enlace correspondiente para descargar el instalador de Windows.
 3. Una vez que se haya completado la descarga, se debe ejecutar el archivo de instalación descargado. En ese momento aparecerá un asistente de instalación. Haz clic en "Next" (Siguiente) para continuar.
@@ -32,6 +27,23 @@ A continuación se enumeran algunas de las principales características de Postg
 psql -U postgres
 ```
 14. La respuesta debería ser la solicitud de ingreso de la contraseña que configuraste para el usuario "postgres". Después de ingresarla correctamente, deberías poder acceder a la línea de comandos de PostgreSQL.
+
+## Instalación paso a paso de PostgreSQL (Ubuntu):
+1. Desde hace un tiempo, Ubuntu incluye una versión de PostgreSQL en su instalación por defecto. No obstante se brindan las instrucciones para su instalación.
+2. Ejecuta el siguiente comando para instalar PostgreSQL y el paquete adicional `postgresql-contrib`, que incluye extensiones útiles:
+```
+sudo apt install postgresql postgresql-contrib
+```
+3. Durante la instalación, el instalador solicitaráuna contraseña para el usuario "postgres". Esta contraseña se utilizará para acceder a la base de datos. Ingresa una contraseña segura y recuérdala.
+4. Ahora es posible acceder a la línea de comandos de PostgreSQL (psql) con el usuario "postgres" que se creó durante la instalación. Utiliza el siguiente comando para acceder:
+```
+sudo -i -u postgres
+```
+5. Luego, puedes usar el cliente PostgreSQL interactivo con el comando:
+```
+psql
+```
+6. Una vez terminadas las tareas con PostgreSQL, no olvide salir de psql y del usuario postgresql con los comandos `\q` y `exit` respectivamente. 
 
 ## Instalación paso a paso de pgAdmin:
 

@@ -18,23 +18,20 @@ A continuación se enumeran algunas de las principales características de Postg
 ## Instalación paso a paso de PostgreSQL (Linux):
 1. La instalación de PostgreSQL en SO Windows es una instalación muy sencilla. En primer lugar, se debe acceder al Sitio Web Oficial de PostgreSQL en https://www.postgresql.org/download/windows/.
 2. En la página de descargas, se debe seleccionar la versión de PostgreSQL que se desea instalar. Generalmente, se recomienda la última versión estable. Una vez elegida, hacer clic en el enlace correspondiente para descargar el instalador de Windows.
-3. Una vez que se haya completado la descarga, ejecuta el archivo de instalación descargado.
-4. Aparecerá un asistente de instalación. Haz clic en "Next" (Siguiente) para continuar.
-5. A continuación se debe seleccionar la ubicación donde se desea instalar PostgreSQL (la ubicación predeterminada es adecuada para la mayoría de los casos). Luego, haz clic en "Next" (Siguiente).
-6. En la siguiente pantalla, se deben seleccionar los componentes que deseas instalar. A menos que tengas conocimientos o necesidades específicos, se recomienda dejar las opciones predeterminadas seleccionadas. Haz clic en "Next" (Siguiente).
-7. Elige la carpeta donde se almacenarán los datos de PostgreSQL. La carpeta predeterminada es adecuada para la mayoría de los casos. Haz clic en "Next" (Siguiente).
-8. A continuación, se debe establecer una contraseña para el usuario "postgres", que es el superusuario de PostgreSQL. Asegúrate de recordar esta contraseña, ya que la necesitarás más adelante. Haz clic en "Next" (Siguiente).
-9. En la siguiente pantalla, elige el puerto en el que PostgreSQL escuchará las conexiones. El valor predeterminado es 5432, pero puedes cambiarlo si lo deseas aunque es recomendable dejar el puerto por defecto en la mayoría de los casos. Haz clic en "Next" (Siguiente).
-10. En la siguiente pantalla, puedes elegir el idioma y la contribución regional para la instalación. Deja las opciones predeterminadas a menos que necesites configurarlas de manera diferente. Haz clic en "Next" (Siguiente).
-11. A continuación, selecciona los ajustes de inicio. Por lo general, es mejor dejar las opciones predeterminadas, que permiten que PostgreSQL se inicie automáticamente con Windows. Haz clic en "Next" (Siguiente).
-12. El asistente de instalación mostrará un resumen de las configuraciones que has seleccionado. Revisa la información y, si todo parece correcto, haz clic en "Next" (Siguiente) para comenzar la instalación.
-13. El instalador copiará los archivos y configurará PostgreSQL. Este proceso puede llevar varios minutos.
-14. Una vez que la instalación se complete con éxito, verás una pantalla que indica que la instalación fue exitosa. Haz clic en "Finish" (Finalizar) para cerrar el instalador.
-15. Para verificar que PostgreSQL se ha instalado correctamente, es posible abrir la consola de comandos (cmd) y ejecutar el siguiente comando para acceder a la consola de comandos de PostgreSQL (psql):
+3. Una vez que se haya completado la descarga, se debe ejecutar el archivo de instalación descargado. En ese momento aparecerá un asistente de instalación. Haz clic en "Next" (Siguiente) para continuar.
+4. A continuación se debe seleccionar la ubicación donde se desea instalar PostgreSQL (la ubicación predeterminada es adecuada para la mayoría de los casos). Luego, haz clic en "Next" (Siguiente).
+5. En la siguiente pantalla, se deben seleccionar los componentes que deseas instalar. A menos que tengas conocimientos o necesidades específicos, se recomienda dejar las opciones predeterminadas seleccionadas. Haz clic en "Next" (Siguiente).
+6. A continuación, se debe establecer una contraseña para el usuario "postgres", que es el superusuario de PostgreSQL. Asegúrate de recordar esta contraseña, ya que la necesitarás más adelante. Haz clic en "Next" (Siguiente).
+7. En la siguiente pantalla, elige el puerto en el que PostgreSQL escuchará las conexiones. El valor predeterminado es 5432, pero puedes cambiarlo si lo deseas aunque es recomendable dejar el puerto por defecto en la mayoría de los casos. Haz clic en "Next" (Siguiente).
+8. En la siguiente pantalla, puedes elegir el idioma y la contribución regional para la instalación. Deja las opciones predeterminadas a menos que necesites configurarlas de manera diferente. Haz clic en "Next" (Siguiente).
+9. A continuación, selecciona los ajustes de inicio. Por lo general, es mejor dejar las opciones predeterminadas, que permiten que PostgreSQL se inicie automáticamente con Windows. Haz clic en "Next" (Siguiente).
+10. El asistente de instalación mostrará un resumen de las configuraciones que has seleccionado. Revisa la información y, si todo parece correcto, haz clic en "Next" (Siguiente) para comenzar la instalación. El instalador copiará los archivos y configurará PostgreSQL. Este proceso puede llevar varios minutos.
+11. Una vez que la instalación se complete con éxito, verás una pantalla que indica que la instalación fue exitosa. Haz clic en "Finish" (Finalizar) para cerrar el instalador.
+12. Para verificar que PostgreSQL se ha instalado correctamente, es posible abrir la consola de comandos (cmd) y ejecutar el siguiente comando para acceder a la consola de comandos de PostgreSQL (psql):
 ```
 psql -U postgres
 ```
-16. La respuesta debería ser la solicitud de ingreso de la contraseña que configuraste para el usuario "postgres". Después de ingresarla correctamente, deberías poder acceder a la línea de comandos de PostgreSQL.
+14. La respuesta debería ser la solicitud de ingreso de la contraseña que configuraste para el usuario "postgres". Después de ingresarla correctamente, deberías poder acceder a la línea de comandos de PostgreSQL.
 
 ## Instalación paso a paso de pgAdmin:
 

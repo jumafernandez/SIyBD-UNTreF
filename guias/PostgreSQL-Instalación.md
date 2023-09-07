@@ -58,9 +58,22 @@ sudo apt install pgadmin4
 
 ## Instalación paso a paso de PostGIS
 
+### Sistemas Operativos Windows:
+
 ### Sistemas operativos Linux (Ubuntu):
 1. Para instalar el módulo PostGIS, es necesario nuevamente es necesario abrir una terminal y ejecutar el siguiente comando:
 ```
 sudo apt install postgis
 ```
 2. Durante la instalación, se pedirá confirmar la instalación de PostGIS y sus dependencias. Es necesario aceptar para continuar.
+3. Luego de instalar PostGIS, es necesario habilitarlo en una base de datos PostgreSQL específica.
+4. Abre nuevamente una terminal y accede a la línea de comandos de PostgreSQL como el usuario "postgres":
+```
+sudo -i -u postgres
+```
+5. Luego, es necesario abrir la línea de comandos de PostgreSQL:
+```
+psql
+```
+
+

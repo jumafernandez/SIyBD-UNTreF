@@ -14,7 +14,9 @@ A continuación se enumeran algunas de las principales características de Postg
 5. __Escalabilidad:__ Es conocido por su capacidad para manejar grandes cantidades de datos y cargas de trabajo intensivas. Se puede configurar para escalar horizontal o verticalmente según las necesidades de rendimiento.
 6. __Compatibilidad con múltiples plataformas:__ Es compatible con todas las familias de sistemas operativos tales cómo Linux, Windows, macOS y más. Además, cuenta con numerosas bibliotecas y controladores que facilitan la integración con una variedad de lenguajes de programación y aplicaciones.
 
-## Instalación paso a paso de PostgreSQL (Windows):
+## Instalación paso a paso de PostgreSQL + pgAdmin
+
+### Sistemas Operativos Windows:
 1. La instalación de PostgreSQL en SO Windows es una instalación muy sencilla. En primer lugar, se debe acceder al Sitio Web Oficial de PostgreSQL en https://www.postgresql.org/download/windows/.
 2. En la página de descargas, se debe seleccionar la versión de PostgreSQL que se desea instalar. Generalmente, se recomienda la última versión estable. Una vez elegida, hacer clic en el enlace correspondiente para descargar el instalador de Windows.
 3. Una vez que se haya completado la descarga, se debe ejecutar el archivo de instalación descargado. En ese momento aparecerá un asistente de instalación. Haz clic en "Next" (Siguiente) para continuar. Aquí, deberá aceptarse el acuerdo de instalación.
@@ -32,7 +34,7 @@ psql -U postgres
 ```
 14. La respuesta debería ser la solicitud de ingreso de la contraseña que configuraste para el usuario "postgres". Después de ingresarla correctamente, deberías poder acceder a la línea de comandos de PostgreSQL.
 
-## Instalación paso a paso de PostgreSQL (Ubuntu):
+### Sistemas operativos Linux (Ubuntu):
 1. Desde hace un tiempo, Ubuntu incluye una versión de PostgreSQL en su instalación por defecto. No obstante se brindan las instrucciones para su instalación.
 2. Ejecuta el siguiente comando para instalar PostgreSQL y el paquete adicional `postgresql-contrib`, que incluye extensiones útiles:
 ```
@@ -47,10 +49,12 @@ sudo -i -u postgres
 ```
 psql
 ```
-6. Una vez terminadas las tareas con PostgreSQL, no olvide salir de psql y del usuario postgresql con los comandos `\q` y `exit` respectivamente. 
-
-## Instalación paso a paso de pgAdmin:
-
+6. Una vez terminadas las tareas con PostgreSQL, no olvide salir de psql y del usuario postgresql con los comandos `\q` y `exit` respectivamente.
+7. Luego, para instalar pgAdmin, es necesario volver a abrir una consola y escribir el siguiente comando:
+```
+sudo apt install pgadmin4
+```
+8. Ahora si, hemos terminado.
 
 ## Instalación paso a paso de PostGIS:
 

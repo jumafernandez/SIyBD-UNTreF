@@ -16,10 +16,6 @@ A continuación se enumeran algunas de las principales características de Postg
 3. Presionar siguiente y esperar a que finalice la instalación.
 
 ## Instalación paso a paso de PostgreSQL (Linux):
-1. La instalación de PostgreSQL en SO Windows es una instalación muy sencilla. En primer lugar, se debe descargar PostgreSQL desde el siguiente [enlace]([https://github.com/bdm-unlu/2021/blob/master/guias/Java_configuracion.md](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads).
-2. Una vez descargado, se debe hacer doble click sobre el archivo ejecutable, definir un puerto de escucha del servidor (se sugiere dejar el puerto por defecto: 5432) y una clave para el usuario postgres (usuario con mayores privilegios). Es importante no olvidar esa clave.
-3. Presionar siguiente y esperar a que finalice la instalación.
-
 1. La instalación de PostgreSQL en SO Windows es una instalación muy sencilla. En primer lugar, se debe acceder al Sitio Web Oficial de PostgreSQL en https://www.postgresql.org/download/windows/.
 2. En la página de descargas, se debe seleccionar la versión de PostgreSQL que se desea instalar. Generalmente, se recomienda la última versión estable. Una vez elegida, hacer clic en el enlace correspondiente para descargar el instalador de Windows.
 3. Una vez que se haya completado la descarga, ejecuta el archivo de instalación descargado.

@@ -16,6 +16,11 @@ A continuación se enumeran algunas de las principales características de Postg
 
 ## Instalación paso a paso de PostgreSQL + pgAdmin
 
+<p align="center">
+<img src="./imgs/pgadmin-logo.png" width="350px" />
+</p>
+
+
 ### Sistemas Operativos Windows:
 1. La instalación de PostgreSQL en SO Windows es una instalación muy sencilla. En primer lugar, se debe acceder al Sitio Web Oficial de PostgreSQL en https://www.postgresql.org/download/windows/.
 2. En la página de descargas, se debe seleccionar la versión de PostgreSQL que se desea instalar. Generalmente, se recomienda la última versión estable. Una vez elegida, hacer clic en el enlace correspondiente para descargar el instalador de Windows.
@@ -57,6 +62,11 @@ sudo apt install pgadmin4
 8. Ahora si, hemos terminado.
 
 ## Instalación paso a paso de PostGIS
+
+<p align="center">
+<img src="./imgs/postgis-logo.png" width="300px" />
+</p>
+
 
 ### Sistemas Operativos Windows:
 

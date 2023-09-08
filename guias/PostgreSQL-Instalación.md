@@ -1,4 +1,4 @@
-# Guía de Instalación de PostgreSQL + pgAdmin + PostGIS
+# Guía de Instalación de PostgreSQL + pgAdmin
 
 PostgreSQL es un sistema de gestión de bases de datos relacional (RDBMS, por sus siglas en inglés) de código abierto y de alto rendimiento. Fue desarrollado originalmente en la Universidad de California en Berkeley a principios de la década de 1990 y ha ido ganando popularidad desde entonces.
 
@@ -48,13 +48,12 @@ A continuación se enumeran algunas de las principales características de Postg
 psql -U postgres
 ```
 14. La respuesta debería ser la solicitud de ingreso de la contraseña que configuraste para el usuario "postgres". Después de ingresarla correctamente, deberías poder acceder a la línea de comandos de PostgreSQL.
-15. Una vez instalado PostgreSQL, para instalar PostGIS, es necesario abrir la Barra de Programas, buscar la aplicación PostgreSQL y hacer click en _Application Stack Builder_.
-
-<p align="center">
-<img src="./imgs/postgresql-3.png" width="350px" />
-</p>
-
-16. 
+15. Una vez instalado PostgreSQL, para instalar pgAdmin, es necesario descargar el programa desde el enlace oficial es https://www.pgadmin.org/download/pgadmin-4-windows/.
+16. Una vez que se haya completado la descarga, se debe ejecutar el archivo de instalación descargado. En ese momento aparecerá un asistente de instalación. Haz clic en "Siguiente" para continuar.
+17. A continuación es necesario seleccionar que se acaptar el acuerdo de instalación de la aplicación y avanzar.
+18. En la siguiente pantalla, deberá seleccionar la ubicación donde se desea instalar pgAdmin (la ubicación predeterminada es adecuada para la mayoría de los casos).
+19. Luego, seleccionará el nombre con el cual aparece la aplicación en el Menú de inicio, lo cual puede dejar como aparece por defecto.
+10. El asistente de instalación mostrará un resumen de las configuraciones que has seleccionado. Revisa la información y, si todo parece correcto, haz clic en "Siguiente" para comenzar la instalación. Este proceso puede llevar varios minutos.
 
 ### Sistemas operativos Linux (Ubuntu):
 1. Desde hace un tiempo, Ubuntu incluye una versión de PostgreSQL en su instalación por defecto. No obstante se brindan las instrucciones para su instalación.
@@ -77,30 +76,3 @@ psql
 sudo apt install pgadmin4
 ```
 8. Ahora si, hemos terminado.
-
-## Instalación paso a paso de PostGIS
-
-<p align="center">
-<img src="./imgs/postgis-logo.png" width="300px" />
-</p>
-
-
-### Sistemas Operativos Windows:
-
-### Sistemas operativos Linux (Ubuntu):
-1. Para instalar el módulo PostGIS, es necesario nuevamente es necesario abrir una terminal y ejecutar el siguiente comando:
-```
-sudo apt install postgis
-```
-2. Durante la instalación, se pedirá confirmar la instalación de PostGIS y sus dependencias. Es necesario aceptar para continuar.
-3. Luego de instalar PostGIS, es necesario habilitarlo en una base de datos PostgreSQL específica.
-4. Abre nuevamente una terminal y accede a la línea de comandos de PostgreSQL como el usuario "postgres":
-```
-sudo -i -u postgres
-```
-5. Luego, es necesario abrir la línea de comandos de PostgreSQL:
-```
-psql
-```
-
-

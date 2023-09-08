@@ -13,11 +13,11 @@ A continuación, se realiza un paso a paso de esta configuración:
 1. Cuando iniciamos pgAdmin, ir al ícono *Server*, presionar botón derecho sobre el y elegir la opción *Register > Server...*.
 
 <p align="center">
-<img src="./imgs/pgadmin-1.png" width="350px" />
+<img src="./imgs/pgadmin-1.png" width="500px" />
 </p>
 
 <p align="center">
-<img src="./imgs/pg-admin-2.png" width="350px" />
+<img src="./imgs/pg-admin-2.png" width="500px" />
 </p>
 
 2. Aquí vamos a configurar el acceso, para ello debemos determinar una serie de datos mínimos:
@@ -32,12 +32,22 @@ Una vez que configuramos el acceso al Servidor de PostgreSQL desde pgAdmin podem
 1. En primer lugar, debemos crear una Base de Datos. Para crear la DB, debemos expandir el Servidor creado y hacer click derecho sobre el ícono *Databases* y elegir la opción *Create > Database*. Esta es la única sentencia DDL que no puede ejecutarse mediante instrucciones SQL desde pgAdmin dado que siempre debemos estar apuntando a una DB en particular.
 
 <p align="center">
-<img src="./imgs/pgadmin-3.png" width="350px" />
+<img src="./imgs/pgadmin-3.png" width="500px" />
 </p>
 
 2. Si bien es posible definir un sinfín de parámetros como el *encoding* y la configuración regional, con el sólo hecho de elegir un nombre ya podemos crearla. En nuestro caso, elegimos el nombre *prueba* para completar esta demostración.
 3. Una vez que tenemos la Base de Datos creada, podemos ejecutar todas las instrucciones, tanto DDL como DML desde la herramienta *Query Tool*, la cual debemos ejecutar siempre parados sobre la Base de Datos sobre la cual vamos a ejecutar las instrucciones. Si en algún momento, vamos a pasar de una DB a otra, debemos tener en cuenta que la consola de *Querys* debe volver a abrirse desde la otra DB, lo cual se realiza haciendo foto con el mouse y presionando sobre la DB a adminsitrar.
 
 <p align="center">
-<img src="./imgs/pgadmin-4.png" width="350px" />
+<img src="./imgs/pgadmin-4.png" width="500px" />
 </p>
+
+4. Si bien, como comentaba antes, es posible ejecutar todas las instrucciones (DDL y DML) desde *Query Tool*, entre las funcionalidades de pgAdmin, brinda la posibilidad de crear las tablas, con sus columnas y CONSTRAINTS, también desde una interfaz gráfica sin necesidad de escribir código SQL. Para ello, se debe expandir el ícono *Schema*, también el *public* (esquema por defecto), bajar hasta la opción *Tables* y aquí presionar click derecho sobre esta opción y seleccionar *Create > Table...*.
+
+<p align="center">
+<img src="./imgs/pgadmin-5.png" width="500px" />
+</p>
+
+5. Una vez que se ingresa a la opción, podrán crearse todas las características de una Tabla que vimos en clase con la caraterística interesante que pgAdmin irá generando el código SQL (en la última pestaña) en función de las preferencias, columnas y CONSTRAINTS que escojamos.
+6. Hasta aquí una guía básica de pgAdmin, luego seguiremos profundizando en clase.
+

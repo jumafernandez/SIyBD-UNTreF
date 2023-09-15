@@ -54,12 +54,6 @@ A continuación se enumeran algunas de las principales características de Postg
 psql -U postgres
 ```
 14. La respuesta debería ser la solicitud de ingreso de la contraseña que configuraste para el usuario "postgres". Después de ingresarla correctamente, deberías poder acceder a la línea de comandos de PostgreSQL.
-15. Una vez instalado PostgreSQL, para instalar pgAdmin, es necesario descargar el programa desde el enlace oficial es https://www.pgadmin.org/download/pgadmin-4-windows/.
-16. Una vez que se haya completado la descarga, se debe ejecutar el archivo de instalación descargado. En ese momento aparecerá un asistente de instalación. Haz clic en "Siguiente" para continuar.
-17. A continuación es necesario seleccionar que se acaptar el acuerdo de instalación de la aplicación y avanzar.
-18. En la siguiente pantalla, deberá seleccionar la ubicación donde se desea instalar pgAdmin (la ubicación predeterminada es adecuada para la mayoría de los casos).
-19. Luego, seleccionará el nombre con el cual aparece la aplicación en el Menú de inicio, lo cual puede dejar como aparece por defecto.
-10. El asistente de instalación mostrará un resumen de las configuraciones que has seleccionado. Revisa la información y, si todo parece correcto, haz clic en "Siguiente" para comenzar la instalación. Este proceso puede llevar varios minutos.
 
 ### Sistemas operativos Linux (Ubuntu):
 1. Desde hace un tiempo, Ubuntu incluye una versión de PostgreSQL en su instalación por defecto. No obstante se brindan las instrucciones para su instalación.

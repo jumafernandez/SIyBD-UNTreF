@@ -1,6 +1,6 @@
 id,institucion,tipo,cpres
-1,Alto Uruguay,Universidad Nacional,#N/A
-2,Artes,Universidad Nacional,#N/A
+1,Alto Uruguay,Universidad Nacional,Noroeste
+2,Artes,Universidad Nacional,Metropolitana
 3,Arturo Jauretche,Universidad Nacional,Metropolitana
 4,Avellaneda,Universidad Nacional,Metropolitana
 5,Buenos Aires,Universidad Nacional,Metropolitana
@@ -12,13 +12,13 @@ id,institucion,tipo,cpres
 11,Comechingones,Universidad Nacional,Centro-Oeste
 12,Córdoba,Universidad Nacional,Centro-Oeste
 13,Cuyo,Universidad Nacional,Centro-Oeste
-14,Defensa,Universidad Nacional,#N/A
+14,Defensa,Universidad Nacional,Metropolitana
 15,Entre Ríos,Universidad Nacional,Centro-Este
 16,Formosa,Universidad Nacional,Noreste
 17,Gral. Sarmiento,Universidad Nacional,Metropolitana
-18,Guillermo Brown,Universidad Nacional,#N/A
-19,Hurlingham,Universidad Nacional,#N/A
-20,José C. Paz,Universidad Nacional,#N/A
+18,Guillermo Brown,Universidad Nacional,Metropolitana
+19,Hurlingham,Universidad Nacional,Metropolitana
+20,José C. Paz,Universidad Nacional,Metropolitana
 21,Jujuy,Universidad Nacional,Noroeste
 22,La Matanza,Universidad Nacional,Metropolitana
 23,La Pampa,Universidad Nacional,Sur
@@ -38,17 +38,17 @@ id,institucion,tipo,cpres
 37,Patagonia S. J. Bosco,Universidad Nacional,Sur
 38,Pedagógica,Universidad Nacional,Bonaerense
 39,Quilmes,Universidad Nacional,Metropolitana
-40,Rafaela,Universidad Nacional,#N/A
+40,Rafaela,Universidad Nacional,Centro
 41,Río Cuarto,Universidad Nacional,Centro-Oeste
 42,Río Negro,Universidad Nacional,Sur
 43,Rosario,Universidad Nacional,Centro-Este
 44,Salta,Universidad Nacional,Noroeste
-45,San Antonio de Areco,Universidad Nacional,#N/A
+45,San Antonio de Areco,Universidad Nacional,Bonaerense
 46,San Juan,Universidad Nacional,Centro-Oeste
 47,San Luis,Universidad Nacional,Centro-Oeste
 48,San Martín,Universidad Nacional,Centro-Este
 49,Santiago del Estero,Universidad Nacional,Noroeste
-50,Scalabarini Ortiz,Universidad Nacional,#N/A
+50,Scalabarini Ortiz,Universidad Nacional,Metropolitana
 51,Sur,Universidad Nacional,Bonaerense
 52,Tecnológica Nacional,Universidad Nacional,Bonaerense
 53,Tierra del Fuego,Universidad Nacional,Sur
@@ -56,13 +56,13 @@ id,institucion,tipo,cpres
 55,Tucumán,Universidad Nacional,Noroeste
 56,Villa María,Universidad Nacional,Centro-Oeste
 57,Villa Mercedes,Universidad Nacional,Centro-Oeste
-58,DD. HH. Madres de Plaza de Mayo,Instituto Universitario Nacional,#N/A
+58,DD. HH. Madres de Plaza de Mayo,Instituto Universitario Nacional,Metropolitana
 59,Gendarmería,Instituto Universitario Nacional,Metropolitana
 60,Policía Federal Argentina,Instituto Universitario Nacional,Metropolitana
 61,Seguridad Marítima,Instituto Universitario Nacional,Bonaerense
 62,Autónoma de Entre Ríos,Universidad Provincial,Centro-Este
 63,Chubut,Universidad Provincial,Sur
-64,Ezeiza,Universidad Provincial,#N/A
+64,Ezeiza,Universidad Provincial,Metropolitana
 65,Provincial de Córdoba,Universidad Provincial,Centro-Oeste
 66,Sudoeste,Universidad Provincial,Bonaerense
-67,Patagónico de las Artes,Instituto Universitario Provincial,#N/A
+67,Patagónico de las Artes,Instituto Universitario Provincial,Sur

@@ -27,13 +27,11 @@ A continuación podemos observar gráficamente estas últimas instrucciones:
 <img src="./imgs/ejecutar_mongo.png" alt="drawing" width="700px" align="middle"/>
 
 
-### Robo3T
-Si bien podríamos con MongoDB desde consola, ejecutando el archivo __mongo__, existen dos interfaces gráficas que harán mucho mas sencillas nuestras interacciones: Robo 3T y Meet Studio 3T (su hermano mayor según se anuncia en el sitio web oficial).
-
-Nosotros vamos a trabajar con Robo 3T que es la opción mas sencilla y liviana para interactuar con nuestras Bases de Datos NOSQL. 
+### Studio 3T
+Si bien podríamos con MongoDB desde consola, ejecutando el archivo __mongo__, existen aplicaciones con interfaces gráficas que harán mucho mas sencillas nuestras interacciones, una en particular es Studio 3T.
 
 Los pasos para instalar el servidor de MongoDB se describen a continuación:
-1. Descargamos ROBO 3T del [Sitio web de la herramienta](https://robomongo.org/download), de acuerdo a la versión de nuestro Sistema Operativo.
+1. Descargamos Studio 3T del [Sitio web de la herramienta](https://robomongo.org/download), de acuerdo a la versión de nuestro Sistema Operativo.
 2. Ejecutamos el instalador, que es un instalador típico de Windows (siguiente, siguiente...) y listo.
 
 <img src="./imgs/descargar_robo3t.png" alt="drawing" width="700px" align="middle"/>
@@ -89,7 +87,7 @@ Terminal=false
 StartupNotify=true
 ```
 
-## Utilizando MongoDB a través de Robo 3T (para todos los Sistemas Operativos)
+## Utilizando MongoDB a través de Studio 3T (para todos los Sistemas Operativos)
 
 Una vez que tenemos el Servidor de MongoDB y Robo 3T instalados y operativos, podemos utilizar MongoDB a través de la interfaz gráfica de Robo 3T. Para ello debemos seguir los siguientes pasos, que son muy sencillos:
 1. Iniciamos Robo 3T a partir del Menú de Programas.
@@ -97,13 +95,6 @@ Una vez que tenemos el Servidor de MongoDB y Robo 3T instalados y operativos, po
 3. Para crear la conexión, vamos a la opción __create__ y definimos el host donde está el Servidor, en nuestro caso __localhost__ y el puerto, que por defecto es __27017__. A su vez, definimos __Direct Connection__ en como tipo de conexión (campo Type) y podemos definir un nombre para la conexión -entre algunas otras opciones- que por defecto será __New Connection__.
 4. Una vez que seteamos todos estos campos presionamos en __Save__.
 5. A continuación, seleccionamos nuestra conexión, presionamos __Connect__ y listo, ya estamos conectados al Servidor mediante Robo 3T para empezar a trabajar.
-
-A continuación podemos observar gráficamente como conectarnos a MongoDB con Robo 3T:
-
-<img src="./imgs/conectar_robo3t.png" alt="drawing" width="700px" align="middle"/>
-
-Para empezar a trabajar, creamos otra Guía de Laboratorio, la número III, que muestra una introducción a como gestionar nuestras bases de datos con estas herramientas. Podemos acceder presionando [aquí](https://github.com/dmuba/dmuba.github.io/blob/master/Practicos/guias/guia-labo03.md).
-
 
 ## Backups y Restauración de una base de datos (mongodump y mongorestore)
 

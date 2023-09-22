@@ -5,19 +5,16 @@
 A continuación se presentan algunas operaciones básicas de gestión de Bases de Datos con MongoDB a través de la interfaz Robo3T.
 
 ### Crear una db. 
-Con botón derecho sobre la conexión, __Create Database__
+Con botón derecho sobre la conexión, __Add Database__
 
 
-![crear db](./imgs/Mongo-creardb.png)
-
-
-### Crear una colección
-Botón derecho sobre *collections* __Create Collection__
-
-![crear col](./imgs/Mongo-crearcol.png)
-
+![crear db](./imgs/Mongo-creardb2.png)
 
 ## OPERACIONES CRUD
+
+Si bien existen funcionalidades gráficas para ejecutar las operaciones CRUD, para aprender a gestionar este tipo de Bases de datos vamos a utilizar el Shell que provee la herramienta, al cual accedemos presionando el botón derecho sobre la Base de Datos que queremos operar y seleccionando `Open IntelliShell`, como se ve en la siguiente imagen:
+
+![crear db](./imgs/Mongo-shell.png)
 
 Como vimos en la teoría, las operaciones de creación, actualización, borrado y consulta de datos son denominadas CRUD (create, read, update, delete) y son similares a las que estamos acostumbrados en los Sistemas Gestores de Bases de Datos tradicionales.
 

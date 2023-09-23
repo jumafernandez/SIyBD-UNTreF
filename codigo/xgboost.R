@@ -1,5 +1,8 @@
+#
+# En este script se utiliza xgboost para clasificar variedades de vinos del dataset wine
+# presente en https://archive.ics.uci.edu/dataset/109/wine
+#
 # Cargo una librería que posee el dataset "wine" para no descargarlo
-# https://archive.ics.uci.edu/dataset/109/wine
 library("HDclassif")
 data("wine")
 

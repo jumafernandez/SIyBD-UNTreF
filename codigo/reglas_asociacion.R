@@ -2,6 +2,10 @@
 # En este script se utilizan reglas de asociación para analizar co-ocurrencias en
 # el dataset Groceries
 #
+# Material complementario: 
+# --- https://rpubs.com/jumafernandez/association_rules
+# --- https://github.com/jumafernandez/SIyBD-UNTreF/blob/main/guias/Reglas-Asociaci%C3%B3n-R.md
+#
 
 # Verifico si la librería arules está instalada y sino la instalo, luego la cargo en memoria
 librerias_instaladas<-rownames(installed.packages())

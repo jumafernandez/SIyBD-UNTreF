@@ -1,6 +1,6 @@
 # Guía LABORATORIO: Introducción a Bases de Datos NOSQL
 
-## Creación de "esquemas" con MongoDB con Robo3T
+## Creación de "esquemas" con MongoDB con Studio 3T
 
 A continuación se presentan algunas operaciones básicas de gestión de Bases de Datos con MongoDB a través de la interfaz Robo3T.
 

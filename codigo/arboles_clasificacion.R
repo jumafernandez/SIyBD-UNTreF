@@ -29,6 +29,7 @@ wine$clase <- as.factor(wine$clase)
 print(colnames(wine))
 
 # Separamos en train y test
+library(tidyverse)
 set.seed(1)
 wine_train <- sample_frac(wine, .70)
 wine_test <- setdiff(wine, wine_train)

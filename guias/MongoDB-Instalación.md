@@ -1,4 +1,4 @@
-# Guía de Instalación de MongoDB y Robo 3T
+# Guía de Instalación de MongoDB y Studio 3T
 
 En esta guía vamos a mostrar paso a paso como instalar MongoDB y Robo3T. Además, hacia el final de la guía, vamos a mostrar como restaurar y backupear Base de Datos Mongo a través de los comandos __mongorestore__ y __mongodump__.
 

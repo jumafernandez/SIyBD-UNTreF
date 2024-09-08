@@ -1,4 +1,4 @@
-# Guía LABORATORIO: Introducción a Bases de Datos NOSQL
+# Guía de Laboratorio: Introducción a Bases de Datos NOSQL
 
 ## Creación de "esquemas" con MongoDB con Studio 3T
 
